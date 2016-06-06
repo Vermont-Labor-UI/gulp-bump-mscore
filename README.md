@@ -1,4 +1,4 @@
-# GulpBumps
+# gulp-bump-mscore
 Gulp file that will help with the pre bump and the release bump for Microsoft .NET Core projects.
 
 
