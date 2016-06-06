@@ -1,0 +1,16 @@
+{
+  "name": "GulpBumps",
+  "description" : "Gulp file for managing the package.json files in Microsoft .NET Core solutions",
+  "repository" : {
+  	"type" : "git",
+  	"url" : "git://github.com/BertCotton/GulpBumps.git"
+  },
+  "license" : "Apache-2.0",
+  "version": "0.0.1",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-bump": "^2.1.0",
+    "gulp-json-editor": "^2.2.1",
+    "gutil": "^1.6.4"
+  }
+}
