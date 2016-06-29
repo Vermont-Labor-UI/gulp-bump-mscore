@@ -12,6 +12,7 @@
     "gulp-bump": "^2.1.0",
     "gulp-debug": "^2.1.2",
     "gulp-json-editor": "^2.2.1",
+    "gulp-util": "^3.0.7",
     "gutil": "^1.6.4"
   }
 }
