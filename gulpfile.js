@@ -6,7 +6,8 @@ var baseProjectClass = "./application/src/";
 var gulp = require("gulp"),
 	bump = require("gulp-bump"),
     jeditor = require("gulp-json-editor"),
-    gutil = require('gulp-util');
+    gutil = require('gulp-util'),
+    debug = require('gulp-debug');
 
 // Remove any prelease version numbers
 gulp.task('release', function() {
@@ -32,6 +33,7 @@ gulp.task('bump', function () {
 
 gulp.task('bump-pre', function (LOCAL_PUBLISH) {
     gulp.src(baseProjectClass + "**/project.json")
+        .pipe(debug())
         .pipe(jeditor(function (json) {
             json.version = stripStar(json.version);
             json.version = resetPre(json.version);
