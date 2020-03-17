@@ -3,7 +3,7 @@
   "description": "Gulp file for managing the package.json files in Microsoft .NET Core solutions",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ius-gov/gulp-bump-mscore.git"
+    "url": "git://github.com/Vermont-Labor-UI/gulp-bump-mscore.git"
   },
   "license": "Apache-2.0",
   "version": "0.0.1",
